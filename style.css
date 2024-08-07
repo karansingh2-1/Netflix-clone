@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    src: url(Poppins-Bold.ttf);
+    font-family: myfont;
+}
+
+@font-face {
+    src: url(Poppins-Light.ttf);
+    font-family: myfont2;
+}
+
+.main{
+    background-image: url(img/IN-en-20240729-POP_SIGNUP_TWO_WEEKS-perspective_WEB_a67d8c9e-8121-4a74-98e4-8005eb2df227_medium.jpg);
+    background-position: center;
+    background-size: max(1200px, 120vw);
+    background-repeat: no-repeat;
+    height: 120vh;
+    position: relative;
+    border-bottom: 8px solid grey;    
+}
+
+.main .box {
+    height: 120vh;
+    width: 100%;
+    opacity: 0.77;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+
+nav img {
+    color: rgb(193, 17, 25);
+    width: 154px;
+    position: relative;
+    z-index: 10;
+}
+
+nav .btn1{
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(23, 23, 23, 0.5);
+    color: white;
+    border: 1px solid white;
+    margin-right: 20px;
+    
+
+}
+
+nav .btn2{
+    border-radius: 5px;
+    background-color: rgb(219, 19, 29);
+    color: white;
+    border: none;
+    position: relative;
+    z-index: 20;
+    height: 35px;
+    width: 80px;
+    
+}
+
+.text {
+    height: 90%;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 60px;
+    
+}
+
+.text h1 {
+    font-size: 50px;
+    font-family: myfont;
+    text-align: center;
+}
+
+.text > .fi {
+    font-size: 25px;
+    font-family: myfont2;
+    text-align: center;
+}
+
+.text > .se {
+    font-size: 20px;
+    font-family: myfont2;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.input input {
+    height: 35px;
+    width:350px;
+    margin-right: 8px;
+    background-color: rgb(23, 23, 23, 0.5);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.input button {
+    height: 60px;
+    width: 200px;
+    font-size: 25px;
+    background-color: rgb(193, 17, 25);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.back1 {
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    border-bottom: 8px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.back1 .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+}
+
+.back1 h1,h5 {
+    position: relative;
+    z-index: 10px;
+    color: white;
+    text-align: left;
+}
+
+.back1 h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: myfont;
+}
+
+.back1 h5 {
+    font-size: 23px;
+    font-family: myfont2;
+}
+
+
+.tv {
+    position: relative;
+}
+
+.tv img {
+    height: 60vh;
+    width: 36vw;
+    position: absolute;
+
+}
+
+.section2 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 8px solid grey;
+    width: 100%;
+    height: 80vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.back2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back2 .phone img {
+    padding: 30px;
+}
+
+
+
+.back2 .about2 {
+    color: white;
+
+}
+
+.about2 h1 {
+    font-size: 50px;
+    font-family: myfont;
+}
+
+.about2 h5 {
+    font-size: 23px;
+    font-family: myfont2;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+
+}
+
+.faqbox {
+   display: flex;
+   background-color: gray;
+   padding: 24px;
+   max-width: 40vw;
+   margin: auto;
+}
+
+
