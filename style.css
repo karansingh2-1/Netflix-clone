@@ -182,14 +182,17 @@ section {
 
 .tv {
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .tv img {
-    height: 60vh;
-    width: 36vw;
+    /* height: 55vh;
+    width: 36vw; */
     position: absolute;
 
 }
+
 
 .section2 {
     background-color: black;
